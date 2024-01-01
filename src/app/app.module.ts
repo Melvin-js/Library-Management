@@ -22,7 +22,7 @@ import { ManageBooksComponent } from './manage-books/manage-books.component';
 import { BookCategoriesComponent } from './book-categories/book-categories.component';
 import { ManageCategoriesComponent } from './manage-categories/manage-categories.component';
 import { ProfileComponent } from './profile/profile.component';
-import { FineComponent } from './fine/fine.component';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -40,8 +40,7 @@ import { FineComponent } from './fine/fine.component';
     ManageBooksComponent,
     BookCategoriesComponent,
     ManageCategoriesComponent,
-    ProfileComponent,
-    FineComponent
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
